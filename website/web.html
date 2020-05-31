@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="utf">
+<html lang="en">
   <head>
   <title>Add Filter</title>
   <style>
@@ -23,7 +23,7 @@
       #up{
         margin-left: 570px;
       }
-      p1{
+      #p1{
         margin-left: 420px;
       }
       #res{
@@ -656,10 +656,10 @@ function makeb(){
     <h1>Uplaod a Image File And Add Filter</h1>
     <canvas id="can1"></canvas>
     <canvas id="can2"></canvas>
-      <p>
-    <input type="file" multiple="false" accept="image/*" id="up" onchange="upload()">
+    <p>
+    <input type="file"  accept="image/*" id="up" onchange="upload()">
     </p>
-    <p1>
+    <p id ="p1">
       Filters:
       <input type ="button" value="Make Grey" id="f1"
              onclick="makegrey()">
@@ -673,7 +673,7 @@ function makeb(){
              onclick="makerb()">
       <input type ="button" value="Make Blur" id="f6"
              onclick="makeb()">
-    </p1>
+    </p>
     <p>
       <input type ="button" value="RESET" id="res"
              onclick="doreset()">
