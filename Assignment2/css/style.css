@@ -5,7 +5,23 @@ body{
     background-color: lightsalmon;
     border-radius: 0;
     border: 0;
+    overflow: auto;
 }
-.container{
-    background-color: lightpink;
+div h1{
+    color: maroon;
+    float: left;
+    margin-top: -12px;
+}
+div h3{
+    color: maroon;
+    float: left;
+    margin-top: -6px;
+}
+#bs-example-navbar-collapse-1{
+    background-color: mediumspringgreen;
+    text-align: center;
+}
+#maincontent{
+    background-color: lightcyan;
+    overflow: auto;
 }
