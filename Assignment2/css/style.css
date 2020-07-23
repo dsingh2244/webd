@@ -1,4 +1,11 @@
-h1{
-    text-align: center;
-    color: darkkhaki;
+body{
+    background-color: darkseagreen;
+}
+#header-nav{
+    background-color: lightsalmon;
+    border-radius: 0;
+    border: 0;
+}
+.container{
+    background-color: lightpink;
 }
