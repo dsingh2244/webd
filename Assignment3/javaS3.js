@@ -61,7 +61,7 @@ WARNING!!! WARNING!!!
         byeSpeaker.speak(names[i]);
       } 
       else {
-        helloSpeaker.speak(name[i]);
+        helloSpeaker.speak(names[i]);
       }
     }
     })();
